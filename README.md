@@ -1,1 +1,1 @@
-# solana-snaspshot-finder
+# solana-snapshot-finder
