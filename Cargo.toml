@@ -1,0 +1,16 @@
+[package]
+name = "solana-snapshot-finder"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+solana-rpc-client = "3.1.9"
+solana-rpc-client-types = "3.1.9"
+solana-pubkey = "4.1.0"
+tokio = { version = "1.52.3", features = ["full"] }
+tokio-stream = "0.1.18"
+futures = "0.3.32"
+anyhow = "1.0.102"
+reqwest = { version = "0.13.4", features = ["json", "gzip", "stream"] }
+indicatif = "0.18.4"
+dialoguer = "0.12.0"
